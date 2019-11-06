@@ -1,0 +1,18 @@
+version: "3.6"
+services:
+  front-rendalo-dev:
+    build:
+      context: .
+      target: dev
+    image: front-rendalo-dev
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./src/:/usr/src/app/src/
+  front-rendalo-prod:
+    build:
+      context: .
+      target: prod
+    image: front-rendalo-prod
+    ports:
+      - "3002:80"
