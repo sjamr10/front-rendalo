@@ -10,7 +10,6 @@
   "author": "Sergio Miranda",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "^3.2.0"
