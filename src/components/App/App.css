@@ -12,3 +12,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.person {
+  padding: 20px;
+  font-weight: 600;
+}
+
+.person:nth-child(2n) {
+  background-color: #cccccc;
+}
+
+.data {
+  padding: 5px;
+}
